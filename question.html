@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Portfolio: Online Shopping</title>
+    <link rel="stylesheet" href="STYLE/externalstylesheet.css">
+    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+      input:valid {
+        border: 2px solid black;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <table>
+      <td><img src="IMAGE/shopping.jpg" height="50" width="50"></td>
+      <td><h1>ONLINE SHOPPING</h1></td>
+    </table>
+    <nav>
+      <a href="index.html">HOME</a> |
+      <a href="contact.html">CONTACT</a> |
+      <a href="#">QUESTION ?</a> |
+      <a href="https://wwww.facebook.com/">FACEBOOK</a> |
+    </nav>
+
+
+  <p>PLEASE ASK US!</p>
+
+  <form>
+    <fieldset>
+      <label>Name :</label>
+      <input type="text" maxlength="9" minlength="5" required><br/><br/>
+      <select id="simple" name="simple" required>
+        <option> topic </option>
+        <option> my account </option>
+        <option> data privacy </option>
+        <option> payment </option>
+        <option> shipping </option>
+        <option> return </option>
+      </select><br/><br/>
+
+      <label> Question :</label><br/>
+      <textarea rows="4" cols="40" required></textarea><br/><br/>
+
+      <label>Email : </label>
+      <input type="email" id="email" name="email" multiple required><br/><br/>
+
+      <label>Phone number: +60 </label>
+      <input type="number" maxlength="8" required><br/><br/>
+
+      <button type="submit"><strong>SUBMIT</strong></button>
+      <button type="reset"><strong>RESET</strong></button>
+
+    </fieldset>
+
+  </form>
+</body>
